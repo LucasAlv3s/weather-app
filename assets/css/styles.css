@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ul {
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #110;
+    color: #FFF;
+}
+
+form {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: #FFF;
+    border: 0;
+    border-bottom: 2px solid #888;
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+input[type="text"]:focus {
+    border-color: #ff521f;
+    outline: 0;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.icon-weather-forecast {
+    width: 90px;
+    height: 95px;
+}
+
+ul li {
+    background-color: #333;
+    margin-top: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
